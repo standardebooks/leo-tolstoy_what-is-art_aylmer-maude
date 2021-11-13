@@ -8,13 +8,15 @@ body [xml|lang]{
 
 body [xml|lang] i,
 body [xml|lang] em,
-body [xml|lang] header{
+body [xml|lang] header,
+body header [xml|lang]{
 	font-style: normal;
 }
 
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
+	font-variant: normal;
 	max-width: 60%;
 	text-align: justify;
 	text-indent: 0;
@@ -27,28 +29,35 @@ header{
 }
 
 /* Begin poetry */
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] header p{
-	margin: 1em;
-	text-align: center;
-}
-
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i5{
@@ -56,3 +65,44 @@ p span.i5{
 	text-indent: -1em;
 }
 /* End poetry */
+
+/* Poetry blockquote headers */
+[epub|type~="z3998:poem"] header p,
+[epub|type~="z3998:song"] header p{
+	text-align: center;
+}
+
+[epub|type~="z3998:poem"] header p > span[epub|type~="z3998:roman"]{
+	display: inline;
+	padding-left: 0;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] header p + p{
+	margin-top: 0;
+}
+/* End poetry blockquote headers */
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	font-variant: normal;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
