@@ -9,7 +9,8 @@ body [xml|lang]{
 body [xml|lang] i,
 body [xml|lang] em,
 body [xml|lang] header,
-body header [xml|lang]{
+body header [xml|lang],
+blockquote cite [xml|lang]{
 	font-style: normal;
 }
 
@@ -51,7 +52,8 @@ header{
 }
 
 [epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:song"] p + p{
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
