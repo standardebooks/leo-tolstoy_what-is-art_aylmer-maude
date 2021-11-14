@@ -108,3 +108,25 @@ p span.i5{
 	font-style: italic;
 }
 /* End all epigraphs */
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+#introduction ul{
+	list-style-type: none;
+}
+
+#introduction time,
+#preface time{
+	font-style: italic;
+}
+
+#note-68 blockquote + blockquote{
+	margin-top: 2em;
+}
