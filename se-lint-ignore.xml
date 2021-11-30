@@ -9,7 +9,13 @@
 	<file path="introduction.xhtml">
 		<ignore>
 			<code>t-017</code>
-			<reason>The quotation mark is part of the book titles “What Is Art?”, “What Are We to Do Then?”, and “What To Do?”</reason>
+			<reason>The quotation mark is part of the book titles “What Is Art?”, “What Are We to Do Then?”, and “What To Do?”.</reason>
+		</ignore>
+	</file>
+	<file path="preface.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>The quotation mark is part of the book title “What Is Art?”.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
