@@ -36,22 +36,24 @@
 		<meta property="term" refines="#subject-1">sh2009113914</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85008474</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<dc:description id="description">Leo Tolstoy outlines his philosophy of aesthetics.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;What Is Art?&lt;/i&gt; is a philosophical treatise by the Russian author &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy"&gt;Leo Tolstoy&lt;/a&gt; originally completed in 1897, which lays out Tolstoy’s philosophy of aesthetics. Rejecting notions of aesthetics that center beauty, Tolstoy instead posits that art is defined by its role in transmitting feelings between human beings. He argues, furthermore, that the quality of art is not assessed by the pleasure it gives, but whether the feelings the art evokes accord with the meaning of life revealed by a given society’s religious perception. In line with his spiritual views set out in &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/the-kingdom-of-god-is-within-you/leo-wiener"&gt;&lt;i&gt;The Kingdom of God Is Within You&lt;/i&gt;&lt;/a&gt;, Tolstoy argues that the proper purpose of art in the present is to transmit feelings of human unity “and to set up, in place of the existing reign of force, that kingdom of God, &lt;abbr&gt;i.e.&lt;/abbr&gt; of love, which we all recognise to be the highest aim of human life.”&lt;/p&gt;
+			&lt;p&gt;In the course of the book, Tolstoy makes a number of unconventional aesthetic judgments, dismissing such works as the operas of Wagner, &lt;a href="https://standardebooks.org/ebooks/william-shakespeare/romeo-and-juliet"&gt;&lt;i&gt;Romeo and Juliet&lt;/i&gt;&lt;/a&gt;, and his past works like &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/war-and-peace/louise-maude_aylmer-maude"&gt;&lt;i&gt;War and Peace&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/anna-karenina/constance-garnett"&gt;&lt;i&gt;Anna Karenina&lt;/i&gt;&lt;/a&gt; as “bad art.” In turn, he praises such works as &lt;a href="https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol"&gt;&lt;i&gt;A Christmas Carol&lt;/i&gt;&lt;/a&gt; by &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Dickens&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"&gt;&lt;i&gt;Les Misérables&lt;/i&gt;&lt;/a&gt; by &lt;a href="https://standardebooks.org/ebooks/victor-hugo"&gt;Hugo&lt;/a&gt;, as “examples of the highest art, flowing from the love of God and the love of man.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/64908</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/whatisart00tolsuoft</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/What_Is_Art%3F</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/leo-tolstoy_what-is-art_aylmer-maude</meta>
 		<dc:creator id="author">Leo Tolstoy</dc:creator>
 		<meta property="file-as" refines="#author">Tolstoy, Leo</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Lev Nikolayevich Tolstoy</meta>
+		<meta property="alternate-script" refines="#author">Лев Николаевич Толстой</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Leo_Tolstoy</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79068416</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -59,24 +61,31 @@
 		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="translator">Aylmer Maude</dc:contributor>
 		<meta property="file-as" refines="#translator">Maude, Aylmer</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Aylmer_Maude</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n80001480</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#translator" scheme="marc:relators">aui</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Ilya Repin</dc:contributor>
+		<meta property="file-as" refines="#artist">Repin, Ilya</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Ilya Yefimovich Repin</meta>
+		<meta property="alternate-script" refines="#artist">Илья Ефимович Репин</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Ilya_Repin</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79075231</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David King</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">King, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://weijiarhymeswith.asia</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
