@@ -68,6 +68,11 @@ p span.i5{
 }
 /* End poetry */
 
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
 /* Poetry blockquote headers */
 [epub|type~="z3998:poem"] header p,
 [epub|type~="z3998:song"] header p{
@@ -120,8 +125,4 @@ abbr[epub|type~="se:era"]{
 #introduction time,
 #preface time{
 	font-style: italic;
-}
-
-#note-68 blockquote + blockquote{
-	margin-top: 2em;
 }
