@@ -69,6 +69,7 @@ p span.i5{
 /* End poetry */
 
 span.elision{
+	font-style: normal;
 	margin: .5em;
 	margin-left: 3em;
 }
