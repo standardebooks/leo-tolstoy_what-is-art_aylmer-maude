@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="appendix.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>The quote is the title of a short poetic work inside a header, so it does not need punctuation.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-10.xhtml">
 		<ignore>
 			<code>s-060</code>
