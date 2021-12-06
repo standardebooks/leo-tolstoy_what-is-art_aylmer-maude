@@ -6,12 +6,6 @@
 			<reason>The quote is the title of a short poetic work inside a header, so it does not need punctuation.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-10.xhtml">
-		<ignore>
-			<code>s-060</code>
-			<reason>“L’annonciateur” is being italicized since it is in French, not because it is the title of a short story.</reason>
-		</ignore>
-	</file>
 	<file path="introduction.xhtml">
 		<ignore>
 			<code>t-017</code>
