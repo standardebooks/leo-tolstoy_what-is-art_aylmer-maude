@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/leo-tolstoy/what-is-art/aylmer-maude</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-12-06T23:30:26Z</dc:date>
+		<meta property="dcterms:modified">2021-12-06T23:30:26Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -20,7 +20,6 @@
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
-		<meta property="schema:accessibilityFeature">longDescription</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -36,18 +35,17 @@
 		<meta property="term" refines="#subject-1">sh2009113914</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85008474</meta>
-		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">Leo Tolstoy outlines his philosophy of aesthetics.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;What Is Art?&lt;/i&gt; is a philosophical treatise by the Russian author &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy"&gt;Leo Tolstoy&lt;/a&gt; originally completed in 1897, which lays out Tolstoy’s philosophy of aesthetics. Rejecting notions of aesthetics that center beauty, Tolstoy instead posits that art is defined by its role in transmitting feelings between human beings. He argues, furthermore, that the quality of art is not assessed by the pleasure it gives, but whether the feelings the art evokes accord with the meaning of life revealed by a given society’s religious perception. In line with his spiritual views set out in &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/the-kingdom-of-god-is-within-you/leo-wiener"&gt;&lt;i&gt;The Kingdom of God Is Within You&lt;/i&gt;&lt;/a&gt;, Tolstoy argues that the proper purpose of art in the present is to transmit feelings of human unity “and to set up, in place of the existing reign of force, that kingdom of God, &lt;abbr&gt;i.e.&lt;/abbr&gt; of love, which we all recognise to be the highest aim of human life.”&lt;/p&gt;
-			&lt;p&gt;In the course of the book, Tolstoy makes a number of unconventional aesthetic judgments, dismissing such works as the operas of Wagner, &lt;a href="https://standardebooks.org/ebooks/william-shakespeare/romeo-and-juliet"&gt;&lt;i&gt;Romeo and Juliet&lt;/i&gt;&lt;/a&gt;, and his past works like &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/war-and-peace/louise-maude_aylmer-maude"&gt;&lt;i&gt;War and Peace&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/anna-karenina/constance-garnett"&gt;&lt;i&gt;Anna Karenina&lt;/i&gt;&lt;/a&gt; as “bad art.” In turn, he praises such works as &lt;a href="https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol"&gt;&lt;i&gt;A Christmas Carol&lt;/i&gt;&lt;/a&gt; by &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Dickens&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"&gt;&lt;i&gt;Les Misérables&lt;/i&gt;&lt;/a&gt; by &lt;a href="https://standardebooks.org/ebooks/victor-hugo"&gt;Hugo&lt;/a&gt;, as “examples of the highest art, flowing from the love of God and the love of man.”&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;What Is Art?&lt;/i&gt; is an 1897 philosophical treatise by &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy"&gt;Leo Tolstoy&lt;/a&gt; that lays out his philosophy of aesthetics. Rejecting notions of aesthetics that center around beauty, Tolstoy instead posits that art is defined by its role in transmitting feelings between human beings. Furthermore, he argues that the quality of art is not assessed by the pleasure it gives, but whether the feelings the art evokes align with the meaning of life revealed by a given society’s religious perception. In line with his spiritual views set out in &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/the-kingdom-of-god-is-within-you/leo-wiener"&gt;&lt;i&gt;The Kingdom of God Is Within You&lt;/i&gt;&lt;/a&gt;, Tolstoy argues that the proper purpose of art is to transmit feelings of human unity “and to set up, in place of the existing reign of force, that kingdom of God, &lt;abbr&gt;i.e.&lt;/abbr&gt; of love, which we all recognize to be the highest aim of human life.”&lt;/p&gt;
+			&lt;p&gt;Tolstoy makes a number of unconventional aesthetic judgments in the course of the book, dismissing such works as Wagner’s operas, &lt;a href="https://standardebooks.org/ebooks/william-shakespeare/romeo-and-juliet"&gt;&lt;i&gt;Romeo and Juliet&lt;/i&gt;&lt;/a&gt;, and his own past works like &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/war-and-peace/louise-maude_aylmer-maude"&gt;&lt;i&gt;War and Peace&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy/anna-karenina/constance-garnett"&gt;&lt;i&gt;Anna Karenina&lt;/i&gt;&lt;/a&gt; as “bad art.” In turn, he praises such works as &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Dickens’&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol"&gt;&lt;i&gt;A Christmas Carol&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/victor-hugo"&gt;Hugo’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"&gt;&lt;i&gt;Les Misérables&lt;/i&gt;&lt;/a&gt;, as “examples of the highest art, flowing from the love of God and the love of man.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/64908</dc:source>
 		<dc:source>https://archive.org/details/whatisart00tolsuoft</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">77578</meta>
+		<meta property="se:reading-ease.flesch">50.6</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/What_Is_Art%3F</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/leo-tolstoy_what-is-art_aylmer-maude</meta>
 		<dc:creator id="author">Leo Tolstoy</dc:creator>
@@ -92,6 +90,9 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Matic Likar</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Likar, Matic</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
