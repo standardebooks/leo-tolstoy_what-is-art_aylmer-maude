@@ -106,6 +106,26 @@ span.elision{
 }
 /* End all epigraphs */
 
+/* Epigraphs in section headers */
+blockquote > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: table){
+	blockquote > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
+blockquote > header [epub|type~="epigraph"]{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;

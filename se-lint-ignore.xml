@@ -18,4 +18,10 @@
 			<reason>The quotation mark is part of the book title “What Is Art?”.</reason>
 		</ignore>
 	</file>
+	<file path="local.css">
+		<ignore>
+			<code>c-009</code>
+			<reason>Style is overriding an S.E. base style.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
