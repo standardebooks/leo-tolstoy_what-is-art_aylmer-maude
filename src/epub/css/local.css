@@ -99,9 +99,9 @@ span.elision{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -121,8 +121,8 @@ blockquote > header [epub|type~="epigraph"]{
 /* End epigraphs in section headers */
 
 blockquote > header [epub|type~="epigraph"]{
-	margin-top: 2em;
 	margin-bottom: 2em;
+	margin-top: 2em;
 }
 
 footer{
