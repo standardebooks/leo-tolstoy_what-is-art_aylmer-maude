@@ -44,7 +44,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/64908</dc:source>
 		<dc:source>https://archive.org/details/whatisart00tolsuoft</dc:source>
 		<meta property="se:word-count">77578</meta>
-		<meta property="se:reading-ease.flesch">50.6</meta>
+		<meta property="se:reading-ease.flesch">50.5</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/What_Is_Art%3F</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/leo-tolstoy_what-is-art_aylmer-maude</meta>
 		<dc:creator id="author">Leo Tolstoy</dc:creator>
