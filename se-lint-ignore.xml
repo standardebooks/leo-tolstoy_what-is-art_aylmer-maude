@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="appendix.xhtml">
-		<ignore>
-			<code>t-011</code>
+		<ignore code="t-011">
 			<reason>The quote is the title of a short poetic work inside a header, so it does not need punctuation.</reason>
 		</ignore>
 	</file>
 	<file path="introduction.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>The quotation mark is part of the book titles “What Is Art?”, “What Are We to Do Then?”, and “What To Do?”.</reason>
 		</ignore>
 	</file>
 	<file path="local.css">
-		<ignore>
-			<code>c-009</code>
+		<ignore code="c-009">
 			<reason>Style is overriding an S.E. base style.</reason>
 		</ignore>
 	</file>
 	<file path="preface.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>The quotation mark is part of the book title “What Is Art?”.</reason>
 		</ignore>
 	</file>
