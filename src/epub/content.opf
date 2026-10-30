@@ -53,7 +53,7 @@
 		<link href="https://github.com/standardebooks/leo-tolstoy_what-is-art_aylmer-maude" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Leo Tolstoy</dc:creator>
 		<meta property="file-as" refines="#author">Tolstoy, Leo</meta>
-		<meta property="schema:alternateName" refines="#author">Count Lev Nikolayevich Tolstoy</meta>
+		<meta property="schema:alternateName" refines="#author">Lev Nikolayevich Tolstoy</meta>
 		<meta property="alternate-script" refines="#author">Лев Никола́евич Толсто́й</meta>
 		<link href="https://en.wikipedia.org/wiki/Leo_Tolstoy" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79068416.html" refines="#author" rel="schema:sameAs"/>
